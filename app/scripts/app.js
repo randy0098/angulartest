@@ -22,14 +22,18 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/org-query.html',
+        controller: 'OrgQueryCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .otherwise({
-        redirectTo: '/'
-      });
+//      .when('/org-query', {
+//        templateUrl: 'views/org-query.html',
+//        controller: 'OrgQueryCtrl'
+//      })
+//      .otherwise({
+//        redirectTo: '/'
+//      });
   });
