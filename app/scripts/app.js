@@ -10,14 +10,8 @@
  */
 angular
   .module('angulartestApp', [
-    'ngAnimate',
-    'ngAria',
-    'ngCookies',
-    'ngMessages',
-    'ngResource',
     'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
